@@ -1,0 +1,41 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Express App",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "build": "webpack build",
+    "watch": "webpack watch",
+    "mon": "nodemon bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobtread/ExpressApp.git"
+  },
+  "author": "Jacobtread <jacobtread@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobtread/ExpressApp/issues"
+  },
+  "homepage": "https://github.com/jacobtread/ExpressApp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.0.0",
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0",
+    "sass": "^1.32.10",
+    "sass-loader": "^11.0.1",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
